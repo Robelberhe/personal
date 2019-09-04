@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/main.css">
+  <title>About Me</title>
+</head>
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="about.html" class="nav-link">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="work.html" class="nav-link">
+            My Work
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            How To Reach Me
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="about">
+    <h1 class="lg-heading">
+      About
+      <span class="text-secondary">Me</span>
+    </h1>
+    <h2 class="sm-heading">
+      Let me tell you a few things...
+    </h2>
+    
+    <div class="section">
+      <!-- <h1><span>About Me</span></h1> -->
+      <p>
+          Hey! I'm <strong>Robel</strong>. Coding has changed my world. It's not just about apps. Learning to code gave me <i>problem-solving skills</i> and a way to communicate with others on a technical level. I can also develop websites and use my coding skills to get a better job. And I learned it at <strong>DCI</strong> where they build your self-esteem and keep you motivated. Join me in this rewarding journey. You'll have fun, get help, and learn along the way!
+      </p>
+      <p class="quote">"Declare variables, not war, Happy coding"</p>
+  </div>
+  <!-- About Me section end -->
+  
+  <!-- My Schedule section start -->
+  <div class="section">
+      <h1><span>My Coding Schedule</span></h1>
+      <table>
+          <tr>
+              <th>Day</th>
+              <th>Mon</th>
+              <th>Tue</th>
+              <th>Wed</th>
+              <th>Thu</th>
+              <th>Fri</th>
+          </tr>
+          <tr>
+              <td>9-9:30</td>
+              <td class="selected">Learn</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>10-11</td>
+              <td></td>
+              <td class="selected">Practice</td>
+              <td></td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>11-1:30</td>
+              <td></td>
+              <td></td>
+              <td class="selected">Play</td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>1:45-3</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="selected">Code</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>3-3:15</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="selected">Discuss</td>
+          </tr>
+      </table>
+  </div>
+  <!-- My Schedule section end -->
+  
+  
+  <!-- My Skills section start -->
+  <div class="section">
+      <h1><span>My Skills</span></h1>
+      <ul class="ul-section">
+          <li>HTML <br />
+              <progress min="0" max="100" value="88"></progress>
+          </li>
+          <li>CSS <br />
+              <progress min="0" max="100" value="68"></progress>
+          </li>
+          <li>JavaScript <br />
+              <progress min="0" max="100" value="30"></progress>
+          </li>
+      </ul>
+  </div>
+  <!-- My Skills section end -->
+  
+  
+   <!-- Media section start -->
+  <div class="section">
+      <h1><span>My Media</span></h1>
+      <!-- <iframe height="150" width="300" src="./v.mp4" allowfullscreen frameborder="0" controls></iframe> -->
+      <div id="slideshow">
+        <div class="slide-wrapper">
+          <div class="slide"><img src="./img/Project/sparkler.jpg" alt="hamburg" width="720px" height="510px"></div>
+          <div class="slide"><img src="./img/Project/head.jpg" alt="hamburg" width="720px" height="510px"></div>
+          <div class="slide"><img src="./img/Project/smoker.jpg" alt="hamburg" width="720px" height="510px"></div>
+          <div class="slide"><img src="./img/Project/woman.jpg" alt="hamburg" width="720px" height="510px"></div>
+          <div class="slide"><img src="./img/Project/smoker.jpg" alt="hamburg" width="720px" height="510px"></div>
+        </div>
+      </div>
+  </div>
+  <!-- Media section end -->
+  
+  <!-- Form section start -->
+ <div class="section">
+      <h1><span>Contact Me</span></h1>
+      
+      <svg class="face" height="100" width="100">
+          <circle cx="50" cy="50" r="50" fill="#FDD835"/>
+          <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+          <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+          <circle cx="30" cy="30" r="5" fill="#000000"/>
+          <circle cx="70" cy="30" r="5" fill="#000000"/>
+          <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+      </svg>
+           
+      <form>
+          <input name="name" placeholder="Name" type="text" required /><br/>
+          <input name="email" placeholder="Email" type="email" required /><br/>
+          <textarea name="message" placeholder="Message" required ></textarea>
+          <input type="submit" value="SEND" class="submit" />
+      </form>
+  </div>
+  <!-- Form section end -->
+  </main>
+
+  <footer id="main-footer">
+    Copyright &copy; 2019
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
